@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Real Estate Landing Page</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="Images/logo.png" alt="Logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#amenities">Project Amenities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#specifications">Specifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#location-highlights">Location Highlights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+<!-- Hero Section -->
+<section id="home" class="hero d-flex justify-content-center align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="Heading col-sm-10 col-md-10 col-lg-6 d-flex flex-column  justify-content-center align-items-center   text-black">
+                <h1>Find Your Dream Home</h1>
+                <p>Explore our listings and find the perfect property for you.</p>
+            </div>
+            <div class="col-sm-10 col-md-10 col-lg-6 d-flex justify-content-center align-items-center" style="margin-top: 20px;">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+                    </div>
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="text-center text-danger">About Us</h2>
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <!-- <img src="Images/.jpg" class="card-img-top" alt="Our Team"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Who We Are</h5>
+                        <p class="card-text">We are a dedicated team of real estate professionals committed to helping you find your dream property. Our expertise and passion drive us to provide the best service possible.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <!-- <img src="Images/s.jpg" class="card-img-top" alt="Our Services"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">What We Do</h5>
+                        <p class="card-text">From buying to selling, we cover all aspects of real estate. Our extensive market knowledge and personalized approach ensure a seamless experience for every client.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h5 class="mt-4">Our Mission</h5>
+                <p>Our mission is to transform the real estate experience through unparalleled service, integrity, and innovation. We strive to create lasting relationships with our clients and communities.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Project Amenities Section -->
+<section id="amenities" class="amenities">
+    <div class="container">
+        <h2 class="text-center text-danger">Project Amenities</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="amenity">
+                    <i class="fas fa-swimming-pool fa-3x mb-3"></i>
+                    <h5>Swimming Pool</h5>
+                    <p>Enjoy a luxurious swimming pool for relaxation and recreation.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="amenity">
+                    <i class="fas fa-concierge-bell fa-3x mb-3"></i> <!-- New amenity: Concierge Service -->
+                    <h5>Concierge Service</h5>
+                    <p>24/7 concierge service for your convenience and assistance.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="amenity">
+                    <i class="fas fa-spa fa-3x mb-3"></i> <!-- New amenity: Spa & Wellness -->
+                    <h5>Spa & Wellness</h5>
+                    <p>Relax and rejuvenate with our premium spa and wellness facilities.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="amenity">
+                    <i class="fas fa-car fa-3x mb-3"></i>
+                    <h5>Parking Space</h5>
+                    <p>Convenient and secure parking for residents and guests.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="amenity">
+                    <i class="fas fa-bicycle fa-3x mb-3"></i>
+                    <h5>Bicycle Parking</h5>
+                    <p>Dedicated space for bicycle storage and easy access.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="amenity">
+                    <i class="fas fa-wifi fa-3x mb-3"></i>
+                    <h5>High-Speed WiFi</h5>
+                    <p>Stay connected with high-speed internet throughout the property.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section (Hover Flip Card Style with More Features) -->
+<section id="features" class="features">
+    <div class="container">
+        <h2 class="text-center text-danger">Amazing Features</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-globe fa-3x mb-3 text-danger"></i>
+                            <h5>Global Connectivity</h5>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Seamless access to high-speed internet and global communication tools.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-water fa-3x mb-3 text-danger"></i>
+                            <h5>Water Conservation</h5>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Efficient water management systems for reduced consumption and sustainability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-cogs fa-3x mb-3 text-danger"></i>
+                            <h5>Advanced Technology</h5>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Latest technology features to enhance your lifestyle and convenience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-leaf fa-3x mb-3 text-danger"></i>
+                            <h5>Green Living</h5>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Sustainable construction and eco-friendly amenities for a greener lifestyle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-parking fa-3x mb-3 text-danger"></i>
+                            <h5>Ample Parking Space</h5>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Spacious parking facilities designed to accommodate all residents and visitors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-swimming-pool fa-3x mb-3 text-danger"></i>
+                            <h5>Swimming Pool</h5>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Luxury swimming pool with relaxing views and state-of-the-art facilities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Our Specifications Section (Icon Grid Layout) -->
+<section id="specifications" class="specifications">
+    <div class="container">
+        <h2 class="text-center text-danger">Our Specifications</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <i class="fas fa-home fa-3x text-danger mb-3"></i>
+                <h5>Strong Structure</h5>
+                <p>Built with high-grade materials for lasting durability and safety.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-paint-roller fa-3x text-danger mb-3"></i>
+                <h5>Premium Finishes</h5>
+                <p>Luxury interiors with polished finishes and modern designs.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-leaf fa-3x text-danger mb-3"></i>
+                <h5>Eco-Friendly</h5>
+                <p>Sustainable living with solar panels and water recycling systems.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-solar-panel fa-3x text-danger mb-3"></i>
+                <h5>Solar Power</h5>
+                <p>Energy-efficient solar panels to reduce your carbon footprint.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-wifi fa-3x text-danger mb-3"></i>
+                <h5>Smart Home Ready</h5>
+                <p>Control your home remotely with integrated smart home features.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-car fa-3x text-danger mb-3"></i>
+                <h5>Spacious Parking</h5>
+                <p>Ample parking space for both residents and guests.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Location Highlights Section -->
+<section id="location-highlights" class="location-highlights">
+    <div class="container">
+        <h2 class="text-center text-danger mb-5">Location Highlights</h2>
+        <div class="row">
+            <!-- Image Column -->
+            <div class="col-md-6">
+                <img src="Images/Loc-high.jpg" alt="Prime Location" class="img-fluid location-image rounded">
+            </div>
+            <!-- Description Column -->
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="location-description">
+                    <h4 class="text-danger mb-4">Why Our Location Stands Out</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle text-danger"></i> 5 minutes to the nearest metro station</li>
+                        <li><i class="fas fa-check-circle text-danger"></i> Surrounded by top schools and universities</li>
+                        <li><i class="fas fa-check-circle text-danger"></i> 10-minute drive to major shopping malls</li>
+                        <li><i class="fas fa-check-circle text-danger"></i> Easy access to highways and public transport</li>
+                        <li><i class="fas fa-check-circle text-danger"></i> Close proximity to hospitals and healthcare facilities</li>
+                        <li><i class="fas fa-check-circle text-danger"></i> Beautiful parks and recreational areas nearby</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Floor Plans Section -->
+<section id="floor-plans" class="floor-plans d-flex align-items-center justify-content-center">
+    <div class="container">
+        <h2 class="text-center text-danger mb-5">Floor Plans</h2>
+        <div id="floorPlansCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <!-- Carousel Images -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/floor-plan1.jpg" alt="Floor Plan 1" class="d-block mx-auto gallery-image" data-toggle="modal" data-target="#lightboxModal1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Floor Plan1</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/floor-plan2.png" alt="Floor Plan 2" class="d-block mx-auto gallery-image" data-toggle="modal" data-target="#lightboxModal2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Floor Plan2</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/floor-plan3.jpg" alt="Floor Plan 3" class="d-block mx-auto gallery-image" data-toggle="modal" data-target="#lightboxModal3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Floor Plan3</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and Right Controls -->
+            <a class="carousel-control-prev" href="#floorPlansCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#floorPlansCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox Modals for Floor Plan Images -->
+<!-- Modal for Floor Plan 1 -->
+<div class="modal fade" id="lightboxModal1" tabindex="-1" role="dialog" aria-labelledby="lightboxModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="Images/floor-plan1.jpg" class="img-fluid" alt="Floor Plan 1">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Floor Plan 2 -->
+<div class="modal fade" id="lightboxModal2" tabindex="-1" role="dialog" aria-labelledby="lightboxModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="Images/floor-plan2.png" class="img-fluid" alt="Floor Plan 2">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Floor Plan 3 -->
+<div class="modal fade" id="lightboxModal3" tabindex="-1" role="dialog" aria-labelledby="lightboxModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="Images/floor-plan3.jpg" class="img-fluid" alt="Floor Plan 3">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section py-5">
+    <div class="container">
+        <h2 class="text-center text-danger mb-5 mt-5">Contact Us</h2>
+        <div class="row" style="display: flex; justify-content: center; align-items: center;">
+            <!-- Contact Form -->
+            <div class="col-md-6 mb-4">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-block">Submit</button>
+                </form>
+            </div>
+            
+            <!-- Google Map -->
+            <div class="col-md-6 mb-4">
+                <div id="googleMap" class="map-container" style="width:100%;height:400px;">
+                    <!-- Embed Google Map here -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.386770786962!2d78.39578967493603!3d17.44119268345519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb914377c142a7%3A0x81a449f607288226!2sSiddhartha%20Residency%2C%20Guttala_Begumpet%2C%20Kavuri%20Hills%2C%20Madhapur%2C%20Hyderabad%2C%20Telangana%20500033!5e0!3m2!1sen!2sin!4v1728458658822!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer-section bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <!-- About Info -->
+            <div class="col-md-4">
+                <h4>About Us</h4>
+                <p>
+                    We are a leading real estate firm providing luxurious homes at prime locations. 
+                    Contact us for more details about our ongoing and upcoming projects.
+                </p>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="col-md-4">
+                <h4>Contact Information</h4>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Real Estate Ave, City, Country</li>
+                    <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                    <li><i class="fas fa-envelope"></i> info@realestate.com</li>
+                </ul>
+            </div>
+            
+            <!-- Social Media Icons -->
+            <div class="col-md-4">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bottom Footer with Copyright -->
+        <div class="row mt-4">
+            <div class="col text-center">
+                <p>&copy; 2024 Real Estate Co. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
